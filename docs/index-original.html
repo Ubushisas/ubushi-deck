@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellness Analytics - Marketing Sites</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #000;
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            letter-spacing: -0.02em;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #888;
+            margin-bottom: 4rem;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .card {
+            background: #111;
+            border: 1px solid #333;
+            border-radius: 16px;
+            padding: 3rem 2rem;
+            text-decoration: none;
+            color: #fff;
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: #fff;
+            background: #1a1a1a;
+        }
+
+        .card h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .card p {
+            color: #888;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+
+        .tag {
+            display: inline-block;
+            background: #222;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            color: #aaa;
+        }
+
+        .footer {
+            margin-top: 4rem;
+            color: #555;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            .cards {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Wellness Analytics</h1>
+        <p class="subtitle">Choose your marketing experience</p>
+
+        <div class="cards">
+            <a href="./index.html" class="card">
+                <h2>Wellness Carousel</h2>
+                <p>Full-screen animated carousel with GSAP. Features rotating messages, smooth transitions, and comprehensive content sections.</p>
+                <span class="tag">Vite + GSAP</span>
+            </a>
+
+            <a href="./scroll/index.html" class="card">
+                <h2>Scroll Animation</h2>
+                <p>Next.js scroll-triggered experience with rotating clock hand animation. Progressive reveal with Lenis smooth scrolling.</p>
+                <span class="tag">Next.js + GSAP</span>
+            </a>
+        </div>
+
+        <div class="footer">
+            <p>Built for Ubushi Wellness Analytics Dashboard</p>
+        </div>
+    </div>
+</body>
+</html>

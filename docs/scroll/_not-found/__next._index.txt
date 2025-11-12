@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[7121,[],""]
+3:I[4581,[],""]
+:HL["/ubushi-deck/scroll/_next/static/css/ae1b70e8d366a7a5.css","style"]
+0:{"buildId":"47JxyfceG7sv2IdUhupoy","rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/ubushi-deck/scroll/_next/static/css/ae1b70e8d366a7a5.css","precedence":"next"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]}]}]]}],"loading":null,"isPartial":false}
